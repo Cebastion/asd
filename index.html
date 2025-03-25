@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма ввода номера</title>
+  <script async src="https://api.unitalk.cloud/script/2555/2690"></script>
+</head>
+<body>
+<form method="post" id="myForm">
+  <!-- Поле ввода номера -->
+  <input type="text" id="phoneNumber" placeholder="Введите номер телефона">
+  
+  <!-- Кнопка -->
+  <button type="submit">Отправить</button>
+</form>
+
+  <script>
+    var form = document.getElementById("myForm");
+    function handleForm(event) { event.preventDefault(); } 
+    form.addEventListener('submit', handleForm);
+
+    // addEventListener()
+    // function sendPhoneNumber() {
+    //   // Получаем значение из поля ввода
+    //   const phone = document.getElementById('phoneNumber').value;
+
+    //   // Вызываем нужную функцию и передаём номер телефона
+    //   console.log(123);
+    //   nextelSubmitForm(phone,"Denis","dsu@unitalk.cloud");
+       
+    // }
+    // 
+    // 
+    // 
+  </script>
+
+</body>
+</html>
